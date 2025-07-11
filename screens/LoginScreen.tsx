@@ -7,8 +7,14 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { RootStackParamList } from '../types/navigation';
 
 export default function LoginScreen() {
+  const navigation =
+    useNavigation<NativeStackNavigationProp<RootStackParamList>>();
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>KITTY</Text>
@@ -33,7 +39,9 @@ export default function LoginScreen() {
 
       <Text style={styles.footer}>
         계정이 없으신가요?{' '}
-        <Text style={styles.signup}>회원가입</Text>
+        <Text style={styles.signup} onPress={() => navigation.navigate('SignUp')}>
+          회원가입
+        </Text>
       </Text>
     </View>
   );
