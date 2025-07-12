@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LoginScreen from './screens/LoginScreen';
 import SignUpScreen from './screens/SignUpScreen';
+import ProfileScreen from './screens/ProfileScreen';
+import Tabs from './screens/home/tap/Tabs';
 import type { RootStackParamList } from './types/navigation';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -17,6 +19,8 @@ export default function App() {
         screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="SignUp" component={SignUpScreen} />
+        <Stack.Screen name="Profile" component={ProfileScreen} />
+        <Stack.Screen name="Main" component={Tabs} />
       </Stack.Navigator>
     </NavigationContainer>
   );
