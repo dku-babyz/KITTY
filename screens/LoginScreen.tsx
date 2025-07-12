@@ -3,7 +3,6 @@ import {
   View,
   Text,
   TextInput,
-  Image,
   TouchableOpacity,
   StyleSheet,
 } from 'react-native';
@@ -17,14 +16,15 @@ export default function LoginScreen() {
 
   return (
     <View style={styles.container}>
+      {/* ── 브랜드 로고 텍스트 ── */}
       <Text style={styles.title}>KITTY</Text>
 
-      <Image source={require('../assets/logo/kitty.jpeg')} style={styles.image} />
-
+      {/* ── 입력 필드 ── */}
       <TextInput
         placeholder="아이디"
         placeholderTextColor="#999"
         style={styles.input}
+        autoCapitalize="none"
       />
       <TextInput
         placeholder="비밀번호"
@@ -33,10 +33,13 @@ export default function LoginScreen() {
         style={styles.input}
       />
 
-      <TouchableOpacity style={styles.loginButton}>
+      {/* ── 로그인 버튼 ── */}
+      <TouchableOpacity style={styles.loginButton}
+        onPress={() => navigation.navigate('Profile')}>
         <Text style={styles.loginText}>로그인</Text>
       </TouchableOpacity>
 
+      {/* ── 회원가입 링크 ── */}
       <Text style={styles.footer}>
         계정이 없으신가요?{' '}
         <Text style={styles.signup} onPress={() => navigation.navigate('SignUp')}>
@@ -55,18 +58,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingHorizontal: 30,
   },
+  /* 기존 32 → 40으로 확대, 여백도 조정 */
   title: {
-    fontSize: 32,
+    fontSize: 40,
     fontWeight: 'bold',
     color: '#1e40af',
-    marginBottom: 20,
-  },
-  image: {
-    width: 90,
-    height: 90,
-    resizeMode: 'contain',
-    marginBottom: 20,
-    borderRadius: 45,
+    marginBottom: 40,
   },
   input: {
     width: '100%',

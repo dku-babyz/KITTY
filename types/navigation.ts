@@ -1,5 +1,14 @@
 export type RootStackParamList = {
-    Login: undefined;
-    SignUp: undefined;
-  };
-  
+  Login: undefined;
+  SignUp: undefined;
+  Profile: undefined;
+  Main: undefined;
+};
+
+export type MainTabParamList = {
+  Home: undefined;
+  Chat: undefined;
+  Friends: undefined;   
+  Search: undefined;
+  Settings: undefined;
+};
