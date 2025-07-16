@@ -1,0 +1,12 @@
+[submodule "client/web"]
+	path = client/web
+	url = https://github.com/dku-babyz/kitty-web
+[submodule "client/app"]
+	path = client/app
+	url = https://github.com/dku-babyz/kitty-app
+[submodule "backend/app-api"]
+	path = backend/app-api
+	url = https://github.com/dku-babyz/kitty-app-api
+[submodule "backend/web-api"]
+	path = backend/web-api
+	url = https://github.com/dku-babyz/kitty-web-api
