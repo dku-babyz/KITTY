@@ -10,3 +10,6 @@
 [submodule "backend/web-api"]
 	path = backend/web-api
 	url = https://github.com/dku-babyz/kitty-web-api
+[submodule "ai/text-image"]
+	path = ai/text-image
+	url = https://github.com/dku-babyz/kitty-ai
