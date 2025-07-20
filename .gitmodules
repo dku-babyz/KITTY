@@ -13,3 +13,9 @@
 [submodule "ai/text-image"]
 	path = ai/text-image
 	url = https://github.com/dku-babyz/kitty-ai
+[submodule "ai/ai-agent"]
+	path = ai/ai-agent
+	url = https://github.com/dku-babyz/kitty-ai-agent
+[submodule "ai/report-generator"]
+	path = ai/report-generator
+	url = https://github.com/dku-babyz/kitty-report-generator
