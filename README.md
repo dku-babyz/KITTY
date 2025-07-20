@@ -113,7 +113,11 @@ Another bright morning arrived. The blue cat Kitty remembered the fun times at t
 
 ---
 
+<br/>
+<br/>
+
 ## 🔧 함수/클래스 구조 요약
+<br/>
 
 ### 📦 report_generator
 
@@ -128,6 +132,8 @@ Another bright morning arrived. The blue cat Kitty remembered the fun times at t
 
 ---
 
+<br/>
+
 ### 📦 kitty-ai
 
 | 함수명 / 클래스 | 설명 |
@@ -139,6 +145,8 @@ Another bright morning arrived. The blue cat Kitty remembered the fun times at t
 | `QuizGenerator` | 유해 표현 퀴즈 생성기 |
 
 ---
+
+<br/>
 
 ### 📦 kitty_ai_agent
 
