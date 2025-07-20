@@ -432,7 +432,7 @@ Kitty quickly ran over to help the mouse. The mouse shyly smiled, grateful, and 
 | `get_harmful_chat_categories_by_id()` | 채팅 ID 기반 평균 유해 점수 |
 | `get_harmful_site_categories_by_id()` | 사이트 ID 기반 평균 유해 점수 |
 
----
+<br/>
 
 <br/>
 
@@ -446,7 +446,7 @@ Kitty quickly ran over to help the mouse. The mouse shyly smiled, grateful, and 
 | `ChatDataManager` | 예측 결과 기록 및 저장 |
 | `QuizGenerator` | 유해 표현 퀴즈 생성기 |
 
----
+<br/>
 
 <br/>
 
@@ -462,6 +462,6 @@ Kitty quickly ran over to help the mouse. The mouse shyly smiled, grateful, and 
 | `image_critic_llm.call()` | 이미지 품질 평가 |
 | `prompt_critic_llm.call()` | 생성 프롬프트 리비전 수행 |
 
----
+<br/>
 
 
