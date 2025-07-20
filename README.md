@@ -105,9 +105,9 @@ Another bright morning arrived. The blue cat Kitty remembered the fun times at t
 | <img src="image/image_4.png" width="340"/> | <img src="image/image_7.png" width="340"/> |
 
 > AI Agent는 생성된 이미지에 대해 자동 평가(Critic LLM)를 수행합니다.  
-> 피드백: `"키티의 외형 특징(푸른 털, 얼굴 모양)을 더 명확히 반영하면 좋습니다."`  
+> 피드백: `"키티의 외형 특징과 스토리의 구성 요소를 더 명확히 반영하면 좋습니다."`  
 > → 해당 피드백을 반영해 다음 루프에서 더 나은 결과를 생성합니다.  
-> 이 과정은 최대 3회 반복되며 최종 결과만 저장됩니다.
+> 이 과정은 Cost를 아끼기 위해, 최대 3회 반복되며 최종 결과만 저장됩니다.
 
 
 
